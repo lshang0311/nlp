@@ -24,7 +24,7 @@ def load_vectors(fname):
 # data = load_vectors('./data/wiki-news-300d-1M.vec')
 
 # get a short vector
-# lshang@ubuntu:~/work.github/nlp$ cat wiki-news-300d-1M.vec | head -n 51 > vectors.vec
+# lshang@ubuntu:~/work.github/nlp$ cat wiki-news-300d-1M.vec | head -n 51 > words_short.vec
 
 path = r"./fastText/data"
 path = os.path.abspath(path)
